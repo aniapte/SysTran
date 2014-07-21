@@ -69,7 +69,6 @@ static void skeleton_daemon()
 int main()
 {
     skeleton_daemon();
-    char str[100];
     int i=0;
 
     syslog (LOG_NOTICE, "First daemon started.");
@@ -78,8 +77,7 @@ int main()
     {
         //TODO: Insert daemon code here.
         i++;
-        sprintf(str, "mydaemon: %d", i);
-        syslog (LOG_NOTICE, (const char *)str);
+        syslog (LOG_NOTICE, "mydaemon: %d", i);
     
         sleep (2);
         //break;
