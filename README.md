@@ -4,7 +4,7 @@ A repository to save my system training exercises.
 
 ###### git commands
 ```
-git add <unversioned-file-name>
+git add <added-or-changed-file-name>
 git commit -m 'commit message ...'
 git push origin master
 ```
