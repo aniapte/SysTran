@@ -2,6 +2,13 @@ SysTran
 =======
 A repository to save my system training exercises.
 
+###### git commands
+```
+git add <unversioned-file-name>
+git commit -m 'commit message ...'
+git push origin master
+```
+
 ### Assignments
 
 1. Write a C program which has different types of variables. It should have global variables initialized and un-initialzed, a function having local variables, memory allocation using malloc. It should perform some system call operations like open, read, close.
